@@ -11,7 +11,7 @@ public class AnagramFinder {
 
 	public static HashMap<String, String> getSortedDictionary() throws IOException {
 
-		BufferedReader br = new BufferedReader(new FileReader("D://SINGLE.txt"));
+		BufferedReader br = new BufferedReader(new FileReader("SINGLE.txt"));
 		String input = "";
 
 		while ((input = br.readLine()) != null) {
