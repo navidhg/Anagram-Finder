@@ -1,5 +1,9 @@
 Anagram Finder
 
-Author: Navid Hallajian
-
 Info: finds single word anagrams.
+
+The program stores a dictionary to a hash map, giving O(1) access to all the terms. 
+
+Each word is sorted (e.g. cat --> act) and its sorted value acts as the key, an the original value is stored. 
+
+If there is a collision (i.e. another word sorts to the same key) it is simply added on to the end of the previous value.
